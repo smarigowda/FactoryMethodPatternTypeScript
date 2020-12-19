@@ -5,7 +5,9 @@ export abstract class Pizza {
   private toppings = [];
 
   public prepare(): void {
-    console.log(`################### Preparing ${this.name} ###################`);
+    console.log(
+      `################### Preparing ${this.name} ###################`
+    );
     console.log(`Tossing Dough...`);
     console.log(`Adding Sauce...`);
     console.log(`Adding Toppings...`);
