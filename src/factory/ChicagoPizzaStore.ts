@@ -3,6 +3,7 @@ import { Pizza } from "../interfaces/Pizza";
 import { PizzaStore } from "../interfaces/PizzaStore";
 import { ChicagoStyleCheesePizza } from "../pizas/ChicagoStyle/ChicagoStyleCheesePizza";
 import { ChicagoStyleClamPizza } from "../pizas/ChicagoStyle/ChicagoStyleClamPizza";
+import { ChicagoStylePepperoniPizza } from "../pizas/ChicagoStyle/ChicagoStylePepperoniPizza";
 
 export class ChicagoPizzaStore extends PizzaStore {
   constructor() {
@@ -13,6 +14,8 @@ export class ChicagoPizzaStore extends PizzaStore {
       return new ChicagoStyleCheesePizza();
     } else if (pizzaType === PizzaType.Clam) {
       return new ChicagoStyleClamPizza();
+    } else if (pizzaType === PizzaType.Pepperoni) {
+      return new ChicagoStylePepperoniPizza();
     }
   }
 }
