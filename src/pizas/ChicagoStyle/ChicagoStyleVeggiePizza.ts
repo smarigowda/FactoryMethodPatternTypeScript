@@ -6,7 +6,7 @@ export class ChicagoStyleVeggiePizza extends Pizza {
     this.setName("Chicago Style Veggie Pizza");
     this.setDough("Thick Crust");
     this.setSauce("Red Sauce");
-    this.setSauce("Veggies...");
+    this.addToppoing("Veggies...");
   }
   public cut() {
     console.log("Cutting Pizza into Square Slices...");
