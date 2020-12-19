@@ -7,4 +7,7 @@ export class ChicagoStyleClamPizza extends Pizza {
     this.setSauce("Red Sauce");
     this.addToppoing("Onion");
   }
+  public cut() {
+    console.log("Cutting Pizza into Square Slices...");
+  }
 }

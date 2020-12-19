@@ -8,4 +8,8 @@ export class ChicagoStyleCheesePizza extends Pizza {
     this.setSauce("Plum Tomato Sauce");
     this.addToppoing("Shredded Mozzerella Cheese");
   }
+
+  public cut() {
+    console.log("Cutting Pizza into Square Slices...");
+  }
 }

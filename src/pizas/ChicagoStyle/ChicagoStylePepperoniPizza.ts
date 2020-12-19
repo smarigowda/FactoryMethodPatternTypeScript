@@ -8,4 +8,7 @@ export class ChicagoStylePepperoniPizza extends Pizza {
     this.setSauce("Red Sauce");
     this.addToppoing("Sliced Pepperoni");
   }
+  public cut() {
+    console.log("Cutting Pizza into Square Slices...");
+  }
 }
